@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Login</title>
+</head>
+<body>
+    <!------NAVBAR------>
+    <nav class="navBar">
+        <ul>
+            <button class="LoginButton" onclick="location.href='index.html'">Home</button>
+            <button class="RegisterButton" onclick="location.href='register.html'">Register</button>
+        </ul>
+     <!------Login Form------>
+     <section class="loginSection">
+        <br>
+        <h2>
+            Please Enter your Login information
+        </h2><br>
+
+   <form>
+    <div class="login-text">
+        <label for="userEmail"><b>Please enter your Email:</b></label><br>
+        <input type="email" id="userEmail" placeholder="ex:MyEmail@xyz.com" required><br>
+        <label for="passWord"><b>Please Enter your password:</b></label><br>
+        <input type="password" id="passWord" placeholder="****************" required><br>
+    </div>
+            <input type="submit" value="Login"><br>
+   </form>
+     </section>
+    </nav>
+</body>
+</html>
