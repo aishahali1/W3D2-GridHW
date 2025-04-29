@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Register</title>
+</head>
+<body style="height: 100vh;">
+    <!------NAVBAR------>
+    <nav class="navBar">
+        <ul>
+            <button class="LoginButton" onclick="location.href='index.html'">Home</button>
+            <button class="RegisterButton" onclick="location.href='login.html'">Login</button>
+        </ul>
+     <!------Login Form------>
+     <section class="RegisterSection">
+        <br>
+        <h2>
+            Please Enter your Login information
+        </h2><br>
+
+   <form>
+    <div class="register-text">
+        <label for="FullName"><b>Please enter your full name:</b></label>
+        <input type="text" id="FullName" placeholder="ex: John Doe" required><br>
+        <label for="userEmail"><b>Please enter your Email:</b></label>
+        <input type="email" id="userEmail" placeholder="ex:MyEmail@xyz.com" required><br>
+        <label for="passWord"><b>Please Enter your password:</b></label>
+        <input type="password" id="passWord" placeholder="****************" required><br>
+    </div>
+            <input type="submit" value="Register"><br>
+   </form>
+     </section>
+    </nav>
+</body>
+</html>
